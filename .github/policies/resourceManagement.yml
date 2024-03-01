@@ -38,7 +38,7 @@ configuration:
         - payloadType: Issues
         - payloadType: Pull_Request
       - labelAdded:
-        label: area-System.Security
+          label: area-System.Security
       then:
       - mentionUsers:
           mentionees:
