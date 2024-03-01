@@ -37,22 +37,18 @@ configuration:
       - or:
         - payloadType: Issues
         - payloadType: Pull_Request
-      - isAction:
-          action: Opened
+      - labelAdded:
+        label: area-System.Security
       then:
-      - if:
-        - hasLabel:
-            label: area-System.Security
-        then:
-        - mentionUsers:
-            mentionees:
-            - dotnet/area-system-security
-            - vcsjones
-            replyTemplate: >-
-              Tagging subscribers to this area: ${mentionees}
+      - mentionUsers:
+          mentionees:
+          - dotnet/area-system-security
+          - vcsjones
+          replyTemplate: >-
+            Tagging subscribers to this area: ${mentionees}
 
-              See info in [area-owners.md](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md) if you want to be subscribed.
-            assignMentionees: False
+            See info in [area-owners.md](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md) if you want to be subscribed.
+          assignMentionees: False
       - if:
         - hasLabel:
             label: area-System.Drawing
