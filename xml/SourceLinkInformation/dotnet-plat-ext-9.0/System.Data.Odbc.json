@@ -1,0 +1,1246 @@
+{
+  "Assembly": "System.Data.Odbc",
+  "GUID": "290DEE7C789043079394E74E7F0BAC0AFFFFFFFF",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "T:System.Data.Odbc.ODBC32.RETCODE",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.ODBC32",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L13C9-L13C116"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L14C9-L14C131"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.#ctor(System.String,System.Data.Odbc.OdbcConnection)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L15C9-L15C176"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.#ctor(System.String,System.Data.Odbc.OdbcConnection,System.Data.Odbc.OdbcTransaction)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L16C9-L16C223"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.Cancel",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L40C41-L40C125"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.CreateDbParameter",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L41C81-L41C165"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.CreateParameter",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L42C71-L42C155"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L43C59-L43C60"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ExecuteDbDataReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L44C120-L44C204"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ExecuteNonQuery",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L45C49-L45C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ExecuteReader",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L46C70-L46C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ExecuteReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L47C106-L47C190"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ExecuteScalar",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L48C51-L48C135"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.Prepare",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L49C42-L49C126"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommand.ResetCommandTimeout",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L50C45-L50C129"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.CommandText",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L19C52-L19C136"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.CommandTimeout",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L20C52-L20C136"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.CommandType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L22C69-L22C153"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.Connection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L24C72-L24C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.DbConnection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L25C82-L25C166"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.DbParameterCollection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L26C99-L26C183"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.DbTransaction",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L27C84-L27C168"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.DesignTimeVisible",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L32C56-L32C140"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.Parameters",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L34C80-L34C164"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.Transaction",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L37C74-L37C158"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommand.UpdatedRowSource",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L39C78-L39C162"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcCommand",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L55C9-L55C123"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.#ctor(System.Data.Odbc.OdbcDataAdapter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L56C9-L56C164"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.ApplyParameterInfo(System.Data.Common.DbParameter,System.Data.DataRow,System.Data.StatementType,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L58C184-L58C268"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.DeriveParameters(System.Data.Odbc.OdbcCommand)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L59C85-L59C169"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L60C70-L60C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetDeleteCommand(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L61C102-L61C186"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L62C70-L62C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetInsertCommand(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L63C102-L63C186"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetParameterName(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L64C76-L64C160"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetParameterName(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L65C76-L65C160"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetParameterPlaceholder(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L66C83-L66C167"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L67C70-L67C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.GetUpdateCommand(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L68C102-L68C186"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.QuoteIdentifier(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L69C77-L69C161"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.QuoteIdentifier(System.String,System.Data.Odbc.OdbcConnection)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L70C113-L70C197"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.SetRowUpdatingHandler(System.Data.Common.DbDataAdapter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L71C99-L71C183"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.UnquoteIdentifier(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L72C77-L72C161"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcCommandBuilder.UnquoteIdentifier(System.String,System.Data.Odbc.OdbcConnection)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L73C113-L73C197"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcCommandBuilder.DataAdapter",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L57C74-L57C158"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcCommandBuilder",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L77C9-L77C119"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L78C9-L78C143"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.BeginDbTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L100C125-L100C209"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.BeginTransaction",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L101C74-L101C158"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.BeginTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L102C109-L102C193"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.ChangeDatabase(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L103C61-L103C145"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.Close",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L104C40-L104C124"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.CreateCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L105C67-L105C151"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.CreateDbCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L106C77-L106C161"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L107C59-L107C60"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.GetSchema",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L108C61-L108C145"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.GetSchema(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L109C82-L109C166"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.GetSchema(System.String,System.String[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L110C112-L110C196"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.Open",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L111C39-L111C123"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnection.ReleaseObjectPool",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L112C50-L112C134"
+        },
+        {
+          "DocsId": "E:System.Data.Odbc.OdbcConnection.InfoMessage",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L99C88-L99C172"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.ConnectionString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L81C57-L81C141"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.ConnectionTimeout",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L84C50-L84C134"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.Database",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L86C49-L86C133"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.DataSource",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L89C51-L89C135"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.Driver",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L92C38-L92C122"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.ServerVersion",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L95C54-L95C138"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnection.State",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L98C67-L98C151"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcConnection",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L117C9-L117C132"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L118C9-L118C156"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.Clear",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L126C40-L126C124"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.ContainsKey(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L127C60-L127C144"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.Remove(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L128C55-L128C139"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcConnectionStringBuilder.TryGetValue(System.String,System.Object@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L129C140-L129C224"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnectionStringBuilder.Driver",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L120C38-L120C122"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnectionStringBuilder.Dsn",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L122C35-L122C119"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnectionStringBuilder.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L124C61-L124C145"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcConnectionStringBuilder.Keys",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L125C69-L125C153"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcConnectionStringBuilder",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L135C9-L135C120"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.#ctor(System.Data.Odbc.OdbcCommand)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L136C9-L136C163"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.#ctor(System.String,System.Data.Odbc.OdbcConnection)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L137C9-L137C196"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.#ctor(System.String,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L138C9-L138C177"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.CreateRowUpdatedEvent(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L153C244-L153C328"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.CreateRowUpdatingEvent(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L154C246-L154C330"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.OnRowUpdated(System.Data.Common.RowUpdatedEventArgs)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L155C94-L155C178"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataAdapter.OnRowUpdating(System.Data.Common.RowUpdatingEventArgs)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L156C96-L156C180"
+        },
+        {
+          "DocsId": "E:System.Data.Odbc.OdbcDataAdapter.RowUpdated",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L151C86-L151C170"
+        },
+        {
+          "DocsId": "E:System.Data.Odbc.OdbcDataAdapter.RowUpdating",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L152C88-L152C172"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataAdapter.DeleteCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L140C72-L140C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataAdapter.InsertCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L142C72-L142C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataAdapter.SelectCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L144C72-L144C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataAdapter.UpdateCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L150C72-L150C156"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcDataAdapter",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.Close",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L169C40-L169C124"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L170C59-L170C60"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetBoolean(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L171C50-L171C134"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetByte(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L172C47-L172C131"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L173C109-L173C193"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetChar(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L174C47-L174C131"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L175C109-L175C193"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetDataTypeName(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L176C57-L176C141"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetDate(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L177C49-L177C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetDateTime(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L178C62-L178C146"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetDecimal(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L179C53-L179C137"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetDouble(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L180C51-L180C135"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L181C74-L181C158"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetFieldType(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L182C59-L182C143"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetFloat(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L183C49-L183C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetGuid(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L184C54-L184C138"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetInt16(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L185C49-L185C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetInt32(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L186C47-L186C131"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetInt64(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L187C48-L187C132"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetName(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L188C49-L188C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetOrdinal(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L189C56-L189C140"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetSchemaTable",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L190C67-L190C151"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetString(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L191C51-L191C135"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetTime(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L192C49-L192C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetValue(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L193C50-L193C134"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.GetValues(System.Object[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L194C58-L194C142"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.IsDBNull(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L195C48-L195C132"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.NextResult",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L196C45-L196C129"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcDataReader.Read",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L197C39-L197C123"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.Depth",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L162C43-L162C127"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.FieldCount",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L163C48-L163C132"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.HasRows",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L164C46-L164C130"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.IsClosed",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L165C47-L165C131"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L166C52-L166C136"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L167C59-L167C143"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcDataReader.RecordsAffected",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L168C53-L168C137"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcDataReader",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcError.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L206C45-L206C129"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcError.Message",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L202C39-L202C123"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcError.NativeError",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L203C40-L203C124"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcError.Source",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L204C38-L204C122"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcError.SQLState",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L205C40-L205C124"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcError",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcErrorCollection.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L215C57-L215C141"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcErrorCollection.CopyTo(System.Data.Odbc.OdbcError[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L216C73-L216C157"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcErrorCollection.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L217C65-L217C149"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcErrorCollection.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L211C34-L211C118"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcErrorCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L212C63-L212C147"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcErrorCollection",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L228C152-L228C236"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcException.Errors",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L222C68-L222C152"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcException.Source",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L223C47-L223C131"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcException",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L234C72-L234C156"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateCommandBuilder",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L235C86-L235C170"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateConnection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L236C78-L236C162"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateConnectionStringBuilder",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L237C104-L237C188"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateDataAdapter",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L238C80-L238C164"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcFactory.CreateParameter",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L239C76-L239C160"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcFactory.Instance",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcFactory",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcInfoMessageEventArgs.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L246C45-L246C129"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcInfoMessageEventArgs.Errors",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L244C68-L244C152"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcInfoMessageEventArgs.Message",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L245C39-L245C123"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcInfoMessageEventArgs",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcInfoMessageEventHandler.#ctor(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcInfoMessageEventHandler.Invoke(System.Object,System.Data.Odbc.OdbcInfoMessageEventArgs)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcInfoMessageEventHandler.BeginInvoke(System.Object,System.Data.Odbc.OdbcInfoMessageEventArgs,System.AsyncCallback,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcInfoMessageEventHandler.EndInvoke(System.IAsyncResult)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcInfoMessageEventHandler",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.Columns",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.Indexes",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.ProcedureColumns",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.ProcedureParameters",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.Procedures",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.Tables",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataCollectionNames.Views",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcMetaDataCollectionNames",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataColumnNames.BooleanFalseLiteral",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataColumnNames.BooleanTrueLiteral",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcMetaDataColumnNames.SQLType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcMetaDataColumnNames",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L267C9-L267C118"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L268C9-L268C162"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L269C9-L269C172"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L271C9-L271C354"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.Data.ParameterDirection,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Boolean,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L273C9-L273C373"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Data.Odbc.OdbcType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L274C9-L274C194"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.#ctor(System.String,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L275C9-L275C145"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.ResetDbType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L292C46-L292C130"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.ResetOdbcType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L293C39-L293C123"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameter.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L295C45-L295C129"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.DbType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L276C59-L276C143"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.Direction",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L277C74-L277C158"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.IsNullable",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L278C49-L278C133"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.OdbcType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L281C59-L281C143"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.ParameterName",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L283C54-L283C138"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.Precision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L284C43-L284C127"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.Scale",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L285C39-L285C123"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.Size",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L286C42-L286C126"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.SourceColumn",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L288C53-L288C137"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.SourceColumnNullMapping",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L289C62-L289C146"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.SourceVersion",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L290C74-L290C158"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameter.Value",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L291C47-L291C131"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcParameter",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.Data.Odbc.OdbcParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L312C91-L312C175"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L313C49-L313C133"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L314C112-L314C196"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L315C122-L315C206"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Data.Odbc.OdbcType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L316C144-L316C228"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Add(System.String,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L319C91-L319C175"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.AddRange(System.Array)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L320C62-L320C146"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.AddRange(System.Data.Odbc.OdbcParameter[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L321C73-L321C157"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.AddWithValue(System.String,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L322C100-L322C184"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Clear",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L323C40-L323C124"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Contains(System.Data.Odbc.OdbcParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L324C70-L324C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Contains(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L325C55-L325C139"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Contains(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L326C55-L326C139"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L327C70-L327C154"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.CopyTo(System.Data.Odbc.OdbcParameter[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L328C81-L328C165"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L329C74-L329C158"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.GetParameter(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L330C85-L330C169"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.GetParameter(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L331C96-L331C180"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.IndexOf(System.Data.Odbc.OdbcParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L332C68-L332C152"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.IndexOf(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L333C53-L333C137"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.IndexOf(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L334C61-L334C145"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Insert(System.Int32,System.Data.Odbc.OdbcParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L335C79-L335C163"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Insert(System.Int32,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L336C64-L336C148"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Remove(System.Data.Odbc.OdbcParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L337C68-L337C152"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.Remove(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L338C53-L338C137"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.RemoveAt(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L339C52-L339C136"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.RemoveAt(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L340C63-L340C147"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.SetParameter(System.Int32,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L341C97-L341C181"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L342C108-L342C192"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L301C43-L301C127"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.IsFixedSize",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L302C50-L302C134"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.IsReadOnly",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L303C49-L303C133"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.IsSynchronized",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L304C53-L304C137"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L307C75-L307C159"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L310C86-L310C170"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcParameterCollection.SyncRoot",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L311C49-L311C133"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcParameterCollection",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatedEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L346C191-L346C428"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcRowUpdatedEventArgs.Command",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L347C66-L347C150"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcRowUpdatedEventArgs",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatedEventHandler.#ctor(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatedEventHandler.Invoke(System.Object,System.Data.Odbc.OdbcRowUpdatedEventArgs)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatedEventHandler.BeginInvoke(System.Object,System.Data.Odbc.OdbcRowUpdatedEventArgs,System.AsyncCallback,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatedEventHandler.EndInvoke(System.IAsyncResult)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcRowUpdatedEventHandler",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L352C192-L352C429"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcRowUpdatingEventArgs.BaseCommand",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L353C72-L353C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcRowUpdatingEventArgs.Command",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L354C66-L354C150"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcRowUpdatingEventArgs",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatingEventHandler.#ctor(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatingEventHandler.Invoke(System.Object,System.Data.Odbc.OdbcRowUpdatingEventArgs)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatingEventHandler.BeginInvoke(System.Object,System.Data.Odbc.OdbcRowUpdatingEventArgs,System.AsyncCallback,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcRowUpdatingEventHandler.EndInvoke(System.IAsyncResult)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcRowUpdatingEventHandler",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcTransaction.Commit",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L363C41-L363C125"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcTransaction.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L364C59-L364C60"
+        },
+        {
+          "DocsId": "M:System.Data.Odbc.OdbcTransaction.Rollback",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L365C43-L365C127"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcTransaction.Connection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L360C72-L360C156"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcTransaction.DbConnection",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L361C82-L361C166"
+        },
+        {
+          "DocsId": "P:System.Data.Odbc.OdbcTransaction.IsolationLevel",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs#L362C75-L362C159"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcTransaction",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.value__",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.BigInt",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Binary",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Bit",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Char",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.DateTime",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Decimal",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Numeric",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Double",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Image",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Int",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.NChar",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.NText",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.NVarChar",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Real",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.UniqueIdentifier",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.SmallDateTime",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.SmallInt",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Text",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Timestamp",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.TinyInt",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.VarBinary",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.VarChar",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Date",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.OdbcType.Time",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.OdbcType",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/artifacts/obj/System.Data.Odbc/Release/net9.0/System.Data.Odbc.notsupported.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.value__",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.SUCCESS",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.SUCCESS_WITH_INFO",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.ERROR",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.INVALID_HANDLE",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        },
+        {
+          "DocsId": "F:System.Data.Odbc.ODBC32.RETCODE.NO_DATA",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+        }
+      ],
+      "DocsId": "T:System.Data.Odbc.ODBC32.RETCODE",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/8e5e748c5c06d3e40244c725bd2124f06998f6c1/src/libraries/System.Data.Odbc/src/System/Data/Odbc/ODBC32.Common.cs"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "Assembly": "System.IO.FileSystem.AccessControl",
+  "GUID": "30992307AD3731B31C64AE2949FB3D8EFFFFFFFF",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L15C15-L17C20"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.#ctor(System.Security.AccessControl.CommonSecurityDescriptor)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L21C15-L25C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L486C13-L486C43"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L491C13-L491C43"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L503C13-L503C85"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L515C13-L515C83"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.AddAccessRule(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L523C13-L536C20"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.SetAccessRule(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L541C13-L553C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.ResetAccessRule(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L557C13-L569C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRule(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L573C13-L590C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleAll(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L594C13-L611C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L615C13-L632C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.AddAuditRule(System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L636C13-L648C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.SetAuditRule(System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L652C13-L664C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRule(System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L668C13-L680C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleAll(System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L684C13-L696C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L700C13-L712C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.GetAccessRules(System.Boolean,System.Boolean,System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L716C13-L716C82"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectoryObjectSecurity.GetAuditRules(System.Boolean,System.Boolean,System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs#L721C13-L721C83"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.DirectoryObjectSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectoryObjectSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectorySecurity.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectorySecurity.cs#L11C15-L13C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DirectorySecurity.#ctor(System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectorySecurity.cs#L16C15-L18C10"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.DirectorySecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/DirectorySecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSecurity.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSecurity.cs#L12C15-L14C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSecurity.#ctor(System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSecurity.cs#L17C15-L19C10"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.FileSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAccessRule.#ctor(System.Security.Principal.IdentityReference,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs#L18C15-L26C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAccessRule.#ctor(System.String,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs#L32C15-L40C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAccessRule.#ctor(System.Security.Principal.IdentityReference,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs#L52C15-L60C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAccessRule.#ctor(System.String,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs#L68C15-L76C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.FileSystemAccessRule.FileSystemRights",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs#L102C19-L102C59"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.FileSystemAccessRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAccessRule.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAuditRule.#ctor(System.Security.Principal.IdentityReference,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs#L14C15-L21C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAuditRule.#ctor(System.Security.Principal.IdentityReference,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs#L29C15-L37C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAuditRule.#ctor(System.String,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs#L43C15-L50C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemAuditRule.#ctor(System.String,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs#L58C15-L66C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.FileSystemAuditRule.FileSystemRights",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs#L95C19-L95C80"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.FileSystemAuditRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemAuditRule.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L77C13-L83C23"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L94C13-L100C24"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.AddAccessRule(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L151C13-L153C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.SetAccessRule(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L157C13-L158C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L162C13-L163C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L167C13-L197C51"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L205C13-L206C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L210C13-L242C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.AddAuditRule(System.Security.AccessControl.FileSystemAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L246C13-L247C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.SetAuditRule(System.Security.AccessControl.FileSystemAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L251C13-L252C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L256C13-L256C47"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L261C13-L262C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L266C13-L267C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.FileSystemSecurity.AccessRightType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L271C19-L271C51"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.FileSystemSecurity.AccessRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L276C19-L276C55"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.FileSystemSecurity.AuditRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs#L281C19-L281C54"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.FileSystemSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/Security/AccessControl/FileSystemSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.GetAccessControl(System.IO.DirectoryInfo)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L15C13-L17C156"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.GetAccessControl(System.IO.DirectoryInfo,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L22C13-L24C83"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.SetAccessControl(System.IO.DirectoryInfo,System.Security.AccessControl.DirectorySecurity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L29C13-L33C10"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.GetAccessControl(System.IO.FileInfo)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L37C13-L39C137"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.GetAccessControl(System.IO.FileInfo,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L44C13-L46C73"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.SetAccessControl(System.IO.FileInfo,System.Security.AccessControl.FileSecurity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L51C13-L57C10"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.GetAccessControl(System.IO.FileStream)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L67C13-L75C135"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.SetAccessControl(System.IO.FileStream,System.Security.AccessControl.FileSecurity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L87C13-L97C10"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.Create(System.IO.DirectoryInfo,System.Security.AccessControl.DirectorySecurity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L108C13-L112C10"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.Create(System.IO.FileInfo,System.IO.FileMode,System.Security.AccessControl.FileSystemRights,System.IO.FileShare,System.Int32,System.IO.FileOptions,System.Security.AccessControl.FileSecurity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L136C13-L190C10"
+        },
+        {
+          "DocsId": "M:System.IO.FileSystemAclExtensions.CreateDirectory(System.Security.AccessControl.DirectorySecurity,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs#L205C13-L212C28"
+        }
+      ],
+      "DocsId": "T:System.IO.FileSystemAclExtensions",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/d099f075e45d2aa6007a22b71b45a08758559f80/src/libraries/System.IO.FileSystem.AccessControl/src/System/IO/FileSystemAclExtensions.cs"
+    }
+  ]
+}

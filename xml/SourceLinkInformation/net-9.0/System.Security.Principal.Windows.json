@@ -1,0 +1,470 @@
+{
+  "Assembly": "System.Security.Principal.Windows",
+  "GUID": "77C8C306EE4D33E8D846E5EA79F32B09FFFFFFFF",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.IdentityNotMappedException.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs#L16C15-L18C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityNotMappedException.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs#L21C15-L23C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityNotMappedException.#ctor(System.String,System.Exception)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs#L26C15-L28C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityNotMappedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs#L45C13-L46C10"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.IdentityNotMappedException.UnmappedIdentities",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs#L48C66-L48C123"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.IdentityNotMappedException",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityNotMappedException.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.IsValidTargetType(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.Translate(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.Equals(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.GetHashCode",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.op_Equality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs#L27C13-L40C44"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReference.op_Inequality(System.Security.Principal.IdentityReference,System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs#L46C13-L46C37"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.IdentityReference.Value",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.IdentityReference",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IdentityReference.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L31C15-L33C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.#ctor(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L39C9-L42C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L50C13-L51C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Add(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L71C13-L74C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L78C13-L85C26"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Clear",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L90C13-L91C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Contains(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L95C13-L97C51"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L111C13-L111C58"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Translate(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L142C13-L142C49"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L147C13-L357C28"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.IdentityReferenceCollection.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L57C17-L57C42"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs#L122C17-L122C43"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.IdentityReferenceCollection",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/IRCollection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.#ctor(System.String,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L34C9-L56C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L58C9-L68C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.IsValidTargetType(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L83C13-L93C30"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.Translate(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L99C13-L117C111"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.Equals(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L123C13-L123C45"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.GetHashCode",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L128C13-L128C72"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L133C13-L133C26"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.op_Equality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L176C13-L189C105"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.NTAccount.op_Inequality(System.Security.Principal.NTAccount,System.Security.Principal.NTAccount)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L195C13-L195C37"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.NTAccount.Value",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs#L77C17-L77C35"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.NTAccount",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/NTAccount.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L488C9-L513C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.#ctor(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L519C9-L524C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.#ctor(System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L531C15-L533C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.#ctor(System.Security.Principal.WellKnownSidType,System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L544C9-L622C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.Equals(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L684C13-L684C54"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.Equals(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L689C13-L689C34"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.GetHashCode",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L694C13-L699C29"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.ToString",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L704C13-L735C30"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.IsValidTargetType(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L764C13-L764C56"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.IsAccountSid",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L791C13-L802C25"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.Translate(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L808C13-L826C111"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.op_Equality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L836C13-L849C54"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.op_Inequality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L855C13-L855C37"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.CompareTo(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L864C13-L896C22"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.IsWellKnown(System.Security.Principal.WellKnownSidType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L918C13-L918C53"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L923C13-L924C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.SecurityIdentifier.IsEqualDomainSid(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L934C13-L934C54"
+        },
+        {
+          "DocsId": "F:System.Security.Principal.SecurityIdentifier.MinBinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs"
+        },
+        {
+          "DocsId": "F:System.Security.Principal.SecurityIdentifier.MaxBinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.SecurityIdentifier.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L655C36-L655C54"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.SecurityIdentifier.AccountDomainSid",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L668C17-L674C42"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.SecurityIdentifier.Value",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs#L742C17-L742C54"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.SecurityIdentifier",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/SID.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L62C52-L62C81"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L64C65-L64C94"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr,System.String,System.Security.Principal.WindowsAccountType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L67C94-L67C123"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr,System.String,System.Security.Principal.WindowsAccountType,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L70C15-L70C65"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.Security.Principal.WindowsIdentity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L49C9-L101C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L49C9-L230C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L49C9-L326C55"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.GetCurrent",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L346C13-L346C93"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L353C13-L353C90"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.GetCurrent(System.Security.Principal.TokenAccessLevels)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L360C13-L360C74"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.GetAnonymous",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L370C13-L370C42"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Action)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L694C13-L697C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.RunImpersonated``1(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func{``0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L16707566C0-L706C27"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func{System.Threading.Tasks.Task})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L716C16-L716C60"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.RunImpersonatedAsync``1(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,System.Func{System.Threading.Tasks.Task{``0}})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L726C16-L726C60"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L730C13-L738C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.Dispose",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L742C13-L743C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsIdentity.Clone",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L975C13-L975C46"
+        },
+        {
+          "DocsId": "F:System.Security.Principal.WindowsIdentity.DefaultIssuer",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.AuthenticationType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L382C17-L410C14"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.ImpersonationLevel",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L419C17-L446C44"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.IsAuthenticated",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L454C17-L465C46"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.IsGuest",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L521C17-L529C56"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.IsSystem",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L538C17-L546C49"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.IsAnonymous",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L555C17-L563C47"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.Name",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L571C17-L571C34"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.Owner",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L600C17-L611C31"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.User",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L620C17-L631C30"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.Groups",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L640C17-L668C32"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.AccessToken",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L676C17-L676C41"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.Token",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L684C17-L684C62"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.UserClaims",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L985C17-L987C47"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.DeviceClaims",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs#L998C17-L1000C49"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsIdentity.Claims",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.WindowsIdentity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsIdentity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Principal.WindowsPrincipal.#ctor(System.Security.Principal.WindowsIdentity)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L34C15-L39C10"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsPrincipal.IsInRole(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L52C13-L69C40"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.WindowsBuiltInRole)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L116C13-L119C40"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsPrincipal.IsInRole(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L124C13-L130C15"
+        },
+        {
+          "DocsId": "M:System.Security.Principal.WindowsPrincipal.IsInRole(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L140C13-L180C10"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsPrincipal.Identity",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs#L44C47-L44C56"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsPrincipal.UserClaims",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs"
+        },
+        {
+          "DocsId": "P:System.Security.Principal.WindowsPrincipal.DeviceClaims",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.Principal.WindowsPrincipal",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/System/Security/Principal/WindowsPrincipal.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs#L15C42-L15C69"
+        },
+        {
+          "DocsId": "M:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.#ctor(System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs#L21C55-L21C77"
+        },
+        {
+          "DocsId": "M:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.ReleaseHandle",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs#L41C13-L41C57"
+        },
+        {
+          "DocsId": "P:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs#L27C17-L27C63"
+        },
+        {
+          "DocsId": "P:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.IsInvalid",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs#L35C17-L35C74"
+        }
+      ],
+      "DocsId": "T:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/1d1bf92fcf43aa6981804dc53c5174445069c9e4/src/libraries/System.Security.Principal.Windows/src/Microsoft/Win32/SafeHandles/SafeAccessTokenHandle.cs"
+    }
+  ]
+}

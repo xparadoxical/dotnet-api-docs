@@ -1,0 +1,1422 @@
+{
+  "Assembly": "System.Security.AccessControl",
+  "GUID": "8BED8278F48CDEA417D80F2B6A3E1899FFFFFFFF",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L10C9-L10C30"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.#ctor(System.Object[],System.Object[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L12C9-L12C78"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.#ctor(System.Security.Policy.Evidence)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L13C9-L13C47"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.#ctor(System.Security.Policy.EvidenceBase[],System.Security.Policy.EvidenceBase[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L14C9-L14C90"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.AddAssembly(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L22C46-L22C47"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.AddAssemblyEvidence``1(``0)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L23C81-L23C82"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.AddHostEvidence``1(``0)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L24C77-L24C78"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.GetAssemblyEvidence``1",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L25C69-L25C87"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.GetHostEvidence``1",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L26C65-L26C83"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.AddHost(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L28C42-L28C43"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.Clear",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L29C31-L29C32"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.Clone",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L30C36-L30C61"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L32C54-L32C55"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.GetAssemblyEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L33C54-L33C99"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L35C46-L35C91"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.GetHostEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L36C50-L36C95"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.Merge(System.Security.Policy.Evidence)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L37C48-L37C49"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.Evidence.RemoveType(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L38C42-L38C43"
+        },
+        {
+          "DocsId": "P:System.Security.Policy.Evidence.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L16C34-L16C43"
+        },
+        {
+          "DocsId": "P:System.Security.Policy.Evidence.IsReadOnly",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L17C40-L17C53"
+        },
+        {
+          "DocsId": "P:System.Security.Policy.Evidence.IsSynchronized",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L18C44-L18C57"
+        },
+        {
+          "DocsId": "P:System.Security.Policy.Evidence.Locked",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L19C30-L19C34"
+        },
+        {
+          "DocsId": "P:System.Security.Policy.Evidence.SyncRoot",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs#L20C40-L20C53"
+        }
+      ],
+      "DocsId": "T:System.Security.Policy.Evidence",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/Evidence.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.Policy.EvidenceBase.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/EvidenceBase.cs#L8C9-L8C37"
+        },
+        {
+          "DocsId": "M:System.Security.Policy.EvidenceBase.Clone",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/EvidenceBase.cs#L9C48-L9C77"
+        }
+      ],
+      "DocsId": "T:System.Security.Policy.EvidenceBase",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/Policy/EvidenceBase.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.CreateFromBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L279C13-L381C37"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.Copy",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L519C13-L523C67"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.Equals(System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L528C13-L554C58"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.GetHashCode",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L559C13-L581C27"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.op_Equality(System.Security.AccessControl.GenericAce,System.Security.AccessControl.GenericAce)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L586C13-L599C44"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAce.op_Inequality(System.Security.AccessControl.GenericAce,System.Security.AccessControl.GenericAce)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L605C13-L605C37"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.AceType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L398C17-L398C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.AceFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L411C17-L411C31"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.IsInherited",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L424C17-L424C68"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.InheritanceFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L432C17-L444C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.PropagationFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L452C17-L464C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.AuditFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L472C17-L484C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAce.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.GenericAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "P:System.Security.AccessControl.KnownAce.AccessMask",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L666C17-L666C36"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.KnownAce.SecurityIdentifier",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L685C17-L685C29"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.KnownAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CustomAce.#ctor(System.Security.AccessControl.AceType,System.Security.AccessControl.AceFlags,System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L730C15-L740C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CustomAce.GetOpaque",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L789C13-L789C28"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CustomAce.SetOpaque(System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L794C13-L811C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CustomAce.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L824C13-L844C10"
+        },
+        {
+          "DocsId": "F:System.Security.AccessControl.CustomAce.MaxOpaqueLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CustomAce.OpaqueLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L754C17-L760C43"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CustomAce.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L774C17-L774C52"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CustomAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CompoundAce.#ctor(System.Security.AccessControl.AceFlags,System.Int32,System.Security.AccessControl.CompoundAceType,System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L890C15-L897C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CompoundAce.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1005C13-L1039C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CompoundAce.CompoundAceType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L973C17-L973C41"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CompoundAce.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L986C17-L986C108"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CompoundAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.QualifiedAce.GetOpaque",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1242C13-L1242C28"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.QualifiedAce.SetOpaque(System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1247C13-L1264C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.QualifiedAce.AceQualifier",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1186C17-L1186C35"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.QualifiedAce.IsCallback",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1201C17-L1201C36"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.QualifiedAce.OpaqueLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1220C17-L1226C30"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.QualifiedAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAce.#ctor(System.Security.AccessControl.AceFlags,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.Principal.SecurityIdentifier,System.Boolean,System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1337C15-L1339C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAce.MaxOpaqueLength(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1524C13-L1524C107"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAce.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1547C13-L1590C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAce.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1518C17-L1518C107"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CommonAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectAce.#ctor(System.Security.AccessControl.AceFlags,System.Security.AccessControl.AceQualifier,System.Int32,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid,System.Boolean,System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1702C15-L1707C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectAce.MaxOpaqueLength(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L2050C13-L2050C144"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectAce.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L2073C13-L2142C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAce.ObjectAceFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L1988C17-L1988C37"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAce.ObjectAceType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L2005C17-L2005C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAce.InheritedObjectAceType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L2023C17-L2023C48"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAce.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs#L2040C17-L2044C141"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.ObjectAce",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACE.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AceEnumerator.MoveNext",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L73C13-L75C44"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AceEnumerator.Reset",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L80C13-L81C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AceEnumerator.Current",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L68C19-L68C67"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AceEnumerator",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAcl.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L91C9-L92C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAcl.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAcl.CopyTo(System.Security.AccessControl.GenericAce[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L190C13-L191C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericAcl.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L216C13-L216C71"
+        },
+        {
+          "DocsId": "F:System.Security.AccessControl.GenericAcl.AclRevision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "F:System.Security.AccessControl.GenericAcl.AclRevisionDS",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "F:System.Security.AccessControl.GenericAcl.MaxBinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.Revision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.IsSynchronized",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L197C19-L197C32"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericAcl.SyncRoot",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L202C19-L202C31"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.GenericAcl",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.RawAcl.#ctor(System.Byte,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L393C15-L397C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawAcl.#ctor(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L404C15-L407C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawAcl.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L465C13-L493C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawAcl.InsertAce(System.Int32,System.Security.AccessControl.GenericAce)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L544C13-L552C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawAcl.RemoveAce(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L560C13-L561C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawAcl.Revision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L419C19-L419C36"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawAcl.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L428C19-L428C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawAcl.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L439C17-L447C37"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawAcl.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L505C17-L505C37"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.RawAcl",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAcl.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2756C13-L2758C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAcl.RemoveInheritedAces",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2782C13-L2799C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonAcl.Purge(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2803C13-L2839C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.Revision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2698C19-L2698C40"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.Count",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2709C17-L2710C35"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2722C17-L2723C42"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.IsCanonical",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2733C19-L2733C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.IsContainer",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2738C19-L2738C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.IsDS",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2743C19-L2743C32"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonAcl.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2770C17-L2771C43"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CommonAcl",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.#ctor(System.Boolean,System.Boolean,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2854C15-L2856C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.#ctor(System.Boolean,System.Boolean,System.Byte,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2859C15-L2861C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawAcl)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2869C15-L2871C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2889C13-L2891C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2895C13-L2897C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2901C13-L2901C259"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2906C13-L2907C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.AddAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2911C13-L2912C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2919C13-L2927C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.SetAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2931C13-L2932C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2939C13-L2947C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2951C13-L2951C178"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2959C13-L2965C260"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2970C13-L2971C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.SystemAcl.RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L2978C13-L2985C10"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.SystemAcl",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.#ctor(System.Boolean,System.Boolean,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3005C15-L3007C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.#ctor(System.Boolean,System.Boolean,System.Byte,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3010C15-L3012C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawAcl)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3020C15-L3022C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3040C13-L3044C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3048C13-L3052C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3056C13-L3058C282"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3063C13-L3066C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3070C13-L3071C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3078C13-L3088C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3092C13-L3093C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3100C13-L3110C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3114C13-L3114C174"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3122C13-L3130C283"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3135C13-L3136C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.DiscretionaryAcl.RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs#L3143C13-L3152C10"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.DiscretionaryAcl",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ACL.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.#ctor(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L26C15-L28C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L227C13-L346C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L354C13-L422C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.AddAccessRule(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L434C13-L446C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.SetAccessRule(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L450C13-L462C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.ResetAccessRule(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L466C13-L479C20"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRule(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L484C13-L501C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleAll(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L505C13-L524C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L528C13-L545C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.AddAuditRule(System.Security.AccessControl.AuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L549C13-L561C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.SetAuditRule(System.Security.AccessControl.AuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L565C13-L577C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRule(System.Security.AccessControl.AuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L581C13-L593C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleAll(System.Security.AccessControl.AuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L597C13-L609C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L613C13-L625C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.GetAccessRules(System.Boolean,System.Boolean,System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L629C13-L629C82"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonObjectSecurity.GetAuditRules(System.Boolean,System.Boolean,System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs#L634C13-L634C83"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CommonObjectSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/CommonObjectSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L31C9-L52C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L55C15-L59C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.String,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L74C15-L76C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L79C15-L81C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L84C15-L86C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L89C15-L91C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L343C13-L344C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L348C13-L351C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L361C13-L362C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs#L366C13-L369C10"
+        },
+        {
+          "DocsId": "T:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.NativeObjectSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.#ctor(System.Object,System.IntPtr)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.Invoke(System.Int32,System.String,System.Runtime.InteropServices.SafeHandle,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.BeginInvoke(System.Int32,System.String,System.Runtime.InteropServices.SafeHandle,System.Object,System.AsyncCallback,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode.EndInvoke(System.IAsyncResult)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/NativeObjectSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L35C9-L64C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.#ctor(System.Boolean,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L67C15-L72C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.#ctor(System.Security.AccessControl.CommonSecurityDescriptor)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L75C15-L80C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ReadLock",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L149C13-L150C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ReadUnlock",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L154C13-L155C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.WriteLock",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L159C13-L160C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.WriteUnlock",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L164C13-L165C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L277C13-L277C43"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.Persist(System.Boolean,System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L287C13-L315C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L325C13-L325C43"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.GetOwner(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L338C13-L353C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetOwner(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L357C13-L370C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.GetGroup(System.Type)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L378C13-L393C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetGroup(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L397C13-L410C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.PurgeAccessRules(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L414C13-L427C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.PurgeAuditRules(System.Security.Principal.IdentityReference)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L431C13-L444C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetAccessRuleProtection(System.Boolean,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L465C13-L476C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetAuditRuleProtection(System.Boolean,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L497C13-L508C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.IsSddlConversionSupported",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L546C13-L546C25"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L551C13-L561C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorSddlForm(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L565C13-L566C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorSddlForm(System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L570C13-L589C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.GetSecurityDescriptorBinaryForm",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L593C13-L607C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorBinaryForm(System.Byte[])",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L611C13-L612C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.SetSecurityDescriptorBinaryForm(System.Byte[],System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L616C13-L635C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ModifyAccessRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L646C13-L665C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.ModifyAuditRule(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L669C13-L688C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity.AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.SecurityDescriptor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L145C66-L145C85"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.OwnerModified",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L171C17-L176C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.GroupModified",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L194C17-L199C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AuditRulesModified",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L217C17-L222C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AccessRulesModified",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L240C17-L245C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.IsContainer",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L261C19-L261C58"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.IsDS",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L266C19-L266C51"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AreAccessRulesProtected",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L450C17-L460C14"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AreAuditRulesProtected",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L482C17-L492C14"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AreAccessRulesCanonical",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L514C17-L524C14"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AreAuditRulesCanonical",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs#L531C17-L541C14"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AccessRightType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AccessRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity.AuditRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.ObjectSecurity",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurity.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AccessRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L33C15-L40C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AccessRule`1.#ctor(System.String,`0,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L46C15-L53C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AccessRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L65C15-L72C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AccessRule`1.#ctor(System.String,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L80C15-L87C12"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AccessRule`1.Rights",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L116C19-L116C53"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AccessRule`1",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L130C15-L137C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L145C15-L153C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AuditRule`1.#ctor(System.String,`0,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L159C15-L166C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AuditRule`1.#ctor(System.String,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L174C15-L182C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuditRule`1.Rights",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L207C19-L207C53"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AuditRule`1",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.#ctor(System.Boolean,System.Security.AccessControl.ResourceType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L218C15-L219C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.String,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L222C15-L223C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.String,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L226C15-L227C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L230C15-L231C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L234C15-L235C12"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.AccessRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L248C13-L254C23"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.AuditRuleFactory(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L265C13-L271C24"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.Runtime.InteropServices.SafeHandle)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L306C13-L318C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L324C13-L336C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.AddAccessRule(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L345C13-L346C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.SetAccessRule(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L350C13-L351C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.ResetAccessRule(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L355C13-L356C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRule(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L360C13-L360C48"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleAll(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L365C13-L366C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L370C13-L371C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.AddAuditRule(System.Security.AccessControl.AuditRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L375C13-L376C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.SetAuditRule(System.Security.AccessControl.AuditRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L380C13-L381C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRule(System.Security.AccessControl.AuditRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L385C13-L385C47"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleAll(System.Security.AccessControl.AuditRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L390C13-L391C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule{`0})",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L395C13-L396C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity`1.AccessRightType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L403C19-L403C36"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity`1.AccessRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L408C19-L408C48"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectSecurity`1.AuditRuleType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs#L413C19-L413C47"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.ObjectSecurity`1",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/ObjectSecurityT.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.PrivilegeNotHeldException.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs#L18C15-L20C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.PrivilegeNotHeldException.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs#L23C15-L26C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.PrivilegeNotHeldException.#ctor(System.String,System.Exception)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs#L29C15-L32C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.PrivilegeNotHeldException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs#L44C13-L46C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.PrivilegeNotHeldException.PrivilegeName",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs#L50C19-L50C41"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.PrivilegeNotHeldException",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/PrivilegeNotHeldException.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericSecurityDescriptor.IsSddlConversionSupported",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L134C13-L134C25"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericSecurityDescriptor.GetSddlForm(System.Security.AccessControl.AccessControlSections)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L207C13-L253C32"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.GenericSecurityDescriptor.GetBinaryForm(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L262C13-L390C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericSecurityDescriptor.Revision",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L139C19-L139C28"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericSecurityDescriptor.ControlFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericSecurityDescriptor.Owner",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericSecurityDescriptor.Group",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.GenericSecurityDescriptor.BinaryLength",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L169C17-L193C31"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.GenericSecurityDescriptor",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.RawSecurityDescriptor.#ctor(System.Security.AccessControl.ControlFlags,System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.RawAcl,System.Security.AccessControl.RawAcl)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L443C15-L446C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawSecurityDescriptor.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L453C15-L455C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawSecurityDescriptor.#ctor(System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L463C15-L600C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.RawSecurityDescriptor.SetFlags(System.Security.AccessControl.ControlFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L792C13-L793C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.ControlFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L688C17-L688C31"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.Owner",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L700C17-L700C31"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.Group",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L717C17-L717C31"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.SystemAcl",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L734C17-L734C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.DiscretionaryAcl",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L751C17-L751C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.RawSecurityDescriptor.ResourceManagerControl",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L771C17-L771C35"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.RawSecurityDescriptor",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.ControlFlags,System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.SystemAcl,System.Security.AccessControl.DiscretionaryAcl)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L903C9-L906C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Security.AccessControl.RawSecurityDescriptor)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L914C15-L916C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.String)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L937C15-L939C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.#ctor(System.Boolean,System.Boolean,System.Byte[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L946C15-L948C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.SetSystemAclProtection(System.Boolean,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1139C13-L1152C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.SetDiscretionaryAclProtection(System.Boolean,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1156C13-L1173C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.PurgeAccessControl(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1177C13-L1180C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.PurgeAudit(System.Security.Principal.SecurityIdentifier)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1184C13-L1187C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.AddDiscretionaryAcl(System.Byte,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1191C13-L1193C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.CommonSecurityDescriptor.AddSystemAcl(System.Byte,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1197C13-L1199C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.IsContainer",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L970C19-L970C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.IsDS",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L975C19-L975C32"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.ControlFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L987C17-L987C44"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.Owner",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L999C17-L999C37"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.Group",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1016C17-L1016C37"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1030C17-L1030C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1079C17-L1079C30"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.IsSystemAclCanonical",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1125C19-L1125C71"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.CommonSecurityDescriptor.IsDiscretionaryAclCanonical",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs#L1130C19-L1130C85"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.CommonSecurityDescriptor",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/SecurityDescriptor.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AuthorizationRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L33C9-L79C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRule.IdentityReference",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L87C19-L87C36"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRule.AccessMask",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L92C19-L92C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRule.IsInherited",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L97C19-L97C39"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRule.InheritanceFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L102C19-L102C44"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRule.PropagationFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L107C19-L107C44"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AuthorizationRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AccessRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L131C15-L152C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AccessRule.AccessControlType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L160C19-L160C32"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AccessRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectAccessRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Guid,System.Guid,System.Security.AccessControl.AccessControlType)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L180C15-L201C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAccessRule.ObjectType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L209C19-L209C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAccessRule.InheritedObjectType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L214C19-L214C47"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAccessRule.ObjectFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L219C19-L219C39"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.ObjectAccessRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AuditRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L243C15-L255C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuditRule.AuditFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L263C19-L263C33"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AuditRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.ObjectAuditRule.#ctor(System.Security.Principal.IdentityReference,System.Int32,System.Boolean,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Guid,System.Guid,System.Security.AccessControl.AuditFlags)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L283C15-L305C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAuditRule.ObjectType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L313C19-L313C38"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAuditRule.InheritedObjectType",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L318C19-L318C47"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.ObjectAuditRule.ObjectFlags",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L323C19-L323C39"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.ObjectAuditRule",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:System.Security.AccessControl.AuthorizationRuleCollection.#ctor",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L336C15-L338C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AuthorizationRuleCollection.AddRule(System.Security.AccessControl.AuthorizationRule)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L346C13-L347C10"
+        },
+        {
+          "DocsId": "M:System.Security.AccessControl.AuthorizationRuleCollection.CopyTo(System.Security.AccessControl.AuthorizationRule[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L355C13-L356C10"
+        },
+        {
+          "DocsId": "P:System.Security.AccessControl.AuthorizationRuleCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs#L364C19-L364C64"
+        }
+      ],
+      "DocsId": "T:System.Security.AccessControl.AuthorizationRuleCollection",
+      "SourceLink": "https://github.com/dotnet/runtime/blob/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/System.Security.AccessControl/src/System/Security/AccessControl/Rules.cs"
+    }
+  ]
+}
