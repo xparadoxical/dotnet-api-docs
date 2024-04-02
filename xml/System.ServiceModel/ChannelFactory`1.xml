@@ -608,6 +608,46 @@
       </Docs>
     </Member>
     <Member MemberName="CreateChannel">
+      <MemberSignature Language="C#" Value="public static TChannel CreateChannel (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress endpointAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !TChannel CreateChannel(class System.ServiceModel.Channels.Binding binding, class System.ServiceModel.EndpointAddress endpointAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.ChannelFactory`1.CreateChannel(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateChannel (binding As Binding, endpointAddress As EndpointAddress) As TChannel" />
+      <MemberSignature Language="F#" Value="static member CreateChannel : System.ServiceModel.Channels.Binding * System.ServiceModel.EndpointAddress -&gt; 'Channel" Usage="System.ServiceModel.ChannelFactory&lt;'Channel&gt;.CreateChannel (binding, endpointAddress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static TChannel CreateChannel(System::ServiceModel::Channels::Binding ^ binding, System::ServiceModel::EndpointAddress ^ endpointAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TChannel</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" Index="0" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+        <Parameter Name="endpointAddress" Type="System.ServiceModel.EndpointAddress" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netframework-4.8.1;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+      </Parameters>
+      <Docs>
+        <param name="binding">The <see cref="T:System.ServiceModel.Channels.Binding" /> used to configure the endpoint.</param>
+        <param name="endpointAddress">The <see cref="T:System.ServiceModel.EndpointAddress" /> that provides the location of the service.</param>
+        <summary>Creates a channel of a specified type that is used to send messages to a service endpoint that is configured with a specified binding.</summary>
+        <returns>The <paramref name="TChannel" /> of type <see cref="T:System.ServiceModel.Channels.IChannel" /> created by the factory.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Examples
+ :::code language="csharp" source="~/snippets/csharp/VS_Snippets_CFX/s_uechannels/cs/clientsnippets.cs" id="Snippet31":::
+
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.ServiceModel.ChannelFactory" /> has duplex operations it does not support.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateChannel">
       <MemberSignature Language="C#" Value="public virtual TChannel CreateChannel (System.ServiceModel.EndpointAddress address, Uri via);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TChannel CreateChannel(class System.ServiceModel.EndpointAddress address, class System.Uri via) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.ChannelFactory`1.CreateChannel(System.ServiceModel.EndpointAddress,System.Uri)" />
@@ -658,46 +698,6 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="address" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The <see cref="T:System.ServiceModel.ChannelFactory" /> has duplex operations it does not support.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="CreateChannel">
-      <MemberSignature Language="C#" Value="public static TChannel CreateChannel (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress endpointAddress);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !TChannel CreateChannel(class System.ServiceModel.Channels.Binding binding, class System.ServiceModel.EndpointAddress endpointAddress) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ServiceModel.ChannelFactory`1.CreateChannel(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateChannel (binding As Binding, endpointAddress As EndpointAddress) As TChannel" />
-      <MemberSignature Language="F#" Value="static member CreateChannel : System.ServiceModel.Channels.Binding * System.ServiceModel.EndpointAddress -&gt; 'Channel" Usage="System.ServiceModel.ChannelFactory&lt;'Channel&gt;.CreateChannel (binding, endpointAddress)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static TChannel CreateChannel(System::ServiceModel::Channels::Binding ^ binding, System::ServiceModel::EndpointAddress ^ endpointAddress);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TChannel</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="binding" Type="System.ServiceModel.Channels.Binding" Index="0" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
-        <Parameter Name="endpointAddress" Type="System.ServiceModel.EndpointAddress" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.8;netframework-4.8.1;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="binding">The <see cref="T:System.ServiceModel.Channels.Binding" /> used to configure the endpoint.</param>
-        <param name="endpointAddress">The <see cref="T:System.ServiceModel.EndpointAddress" /> that provides the location of the service.</param>
-        <summary>Creates a channel of a specified type that is used to send messages to a service endpoint that is configured with a specified binding.</summary>
-        <returns>The <paramref name="TChannel" /> of type <see cref="T:System.ServiceModel.Channels.IChannel" /> created by the factory.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Examples
- :::code language="csharp" source="~/snippets/csharp/VS_Snippets_CFX/s_uechannels/cs/clientsnippets.cs" id="Snippet31":::
-
- ]]></format>
-        </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="T:System.ServiceModel.ChannelFactory" /> has duplex operations it does not support.</exception>
       </Docs>
     </Member>
