@@ -13,6 +13,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.3</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -55,8 +56,8 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -100,8 +101,8 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -145,8 +146,8 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -198,8 +199,8 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -225,8 +226,8 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -280,8 +281,8 @@ If `obj` is `null`, the method returns `false`.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -319,8 +320,8 @@ Default instances of <xref:System.Text.Json.JsonEncodedText> are treated as equa
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -354,8 +355,8 @@ This method returns 0 on a default instance of <xref:System.Text.Json.JsonEncode
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -392,6 +393,8 @@ This method returns an empty string on a default instance of <xref:System.Text.J
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

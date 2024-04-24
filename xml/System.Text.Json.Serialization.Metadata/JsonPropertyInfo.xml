@@ -10,6 +10,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.3</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -17,7 +18,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0;net-9.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
+    <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")&gt;]</AttributeName>
     </Attribute>
@@ -45,7 +46,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -94,7 +96,8 @@ Setting a custom attribute provider has no impact on the contract model
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -142,7 +145,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -179,7 +183,8 @@ Setting to `null` will result in the property being skipped on serialization.
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -215,7 +220,8 @@ The current <see cref="P:System.Text.Json.Serialization.Metadata.JsonPropertyInf
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -251,7 +257,8 @@ The `required` keyword is currently not supported in <xref:System.Text.Json.Seri
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -288,7 +295,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -320,6 +328,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -343,7 +353,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -365,7 +376,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -397,7 +409,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -419,7 +432,8 @@ For contracts originating from <xref:System.Text.Json.Serialization.Metadata.Def
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -456,7 +470,8 @@ Setting to `null` will result in the property being skipped on deserialization.
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

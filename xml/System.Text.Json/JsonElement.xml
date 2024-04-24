@@ -13,6 +13,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.3</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,7 +25,7 @@
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0;net-9.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
+    <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")&gt;]</AttributeName>
     </Attribute>
@@ -55,8 +56,8 @@ For more information, see [Use JsonDocument for access to data](/dotnet/standard
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -90,8 +91,8 @@ If this <xref:System.Text.Json.JsonElement> is itself the output of a previous c
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -127,8 +128,8 @@ For more information, see [How to write custom serializers and deserializers wit
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -156,8 +157,8 @@ For more information, see [How to write custom serializers and deserializers wit
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -193,8 +194,8 @@ For more information, see [How to write custom serializers and deserializers wit
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -228,8 +229,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -266,8 +267,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -310,8 +311,8 @@ This method does not create a byte representation of values other than Base64 en
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -348,8 +349,8 @@ This method only creates a DateTime representation of JSON strings that conform 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -386,8 +387,8 @@ This method only creates a DateTimeOffset representation of JSON strings that co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -424,8 +425,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -464,8 +465,8 @@ On .NET Core, this method returns <xref:System.Double.PositiveInfinity?displayPr
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -502,8 +503,8 @@ This method does not create a Guid representation of values other than JSON stri
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -532,8 +533,8 @@ This method does not create a Guid representation of values other than JSON stri
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -562,8 +563,8 @@ This method does not create a Guid representation of values other than JSON stri
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -600,8 +601,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -645,8 +646,8 @@ For more information, see [How to write custom serializers and deserializers wit
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -688,8 +689,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -739,8 +740,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -775,8 +776,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -811,8 +812,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -852,8 +853,8 @@ On .NET Core, this method returns <xref:System.Single.PositiveInfinity?displayPr
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -895,8 +896,8 @@ This method does not create a string representation of values other than JSON st
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -939,8 +940,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -983,8 +984,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1027,8 +1028,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1058,8 +1059,8 @@ This method does not parse the contents of a JSON string value.
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1103,8 +1104,8 @@ This method makes a copy of the data the reader acted on, so there is no caller 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1153,8 +1154,8 @@ For other types, the value of <xref:System.Text.Json.JsonElement.GetRawText> is 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1195,8 +1196,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1249,8 +1250,8 @@ This method does not create a byte array representation of values other than Bas
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1290,8 +1291,8 @@ This method only creates a DateTime representation of JSON strings that conform 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1331,8 +1332,8 @@ This method only creates a DateTimeOffset representation of JSON strings that co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1372,8 +1373,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1415,8 +1416,8 @@ On .NET Core, this method does not return `false` for values larger than <xref:S
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1456,8 +1457,8 @@ This method does not create a Guid representation of values other than JSON stri
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1497,8 +1498,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1538,8 +1539,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1579,8 +1580,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1626,8 +1627,8 @@ For more information, see [How to write custom serializers and deserializers wit
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1671,8 +1672,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1724,8 +1725,8 @@ If a property is defined multiple times for the same object, the method matches 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1771,8 +1772,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1814,8 +1815,8 @@ On .NET Core, this method does not return `false` for values larger than <xref:S
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1861,8 +1862,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1908,8 +1909,8 @@ This method does not parse the contents of a JSON string value.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1952,8 +1953,8 @@ This method does not parse the contents of a JSON string value.
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2007,8 +2008,8 @@ This method makes a copy of the data the reader acted on, so there is no caller 
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2048,8 +2049,8 @@ This method is functionally equal to doing an ordinal comparison of the string p
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2089,8 +2090,8 @@ This method is functionally equal to doing an ordinal comparison of `text` and t
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2135,8 +2136,8 @@ This method is functionally equal to doing an ordinal comparison of `text` and t
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2162,8 +2163,8 @@ This method is functionally equal to doing an ordinal comparison of `text` and t
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

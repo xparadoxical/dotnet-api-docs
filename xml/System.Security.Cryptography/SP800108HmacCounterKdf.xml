@@ -12,10 +12,11 @@
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="Microsoft.Bcl.Cryptography" FromVersion="9.0.0.0" To="System.Security.Cryptography" ToVersion="8.0.0.0" FrameworkAlternate="net-8.0" />
+    <TypeForwarding From="Microsoft.Bcl.Cryptography" FromVersion="8.0.0.0" To="System.Security.Cryptography" ToVersion="8.0.0.0" FrameworkAlternate="net-8.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -50,6 +51,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -96,6 +98,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -131,6 +134,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -198,6 +202,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -269,6 +274,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -323,6 +329,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -369,6 +376,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -427,6 +435,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -477,6 +486,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -527,6 +537,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -570,6 +581,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -612,6 +624,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -659,6 +672,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -698,6 +712,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -755,6 +770,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Cryptography</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

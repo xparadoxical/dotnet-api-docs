@@ -3,8 +3,9 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit FrozenDictionary`2&lt;TKey, TValue&gt; extends System.Object implements class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class System.Collections.Generic.IDictionary`2&lt;!TKey, !TValue&gt;, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class System.Collections.Generic.IReadOnlyDictionary`2&lt;!TKey, !TValue&gt;, class System.Collections.ICollection, class System.Collections.IDictionary, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Frozen.FrozenDictionary`2" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class FrozenDictionary(Of TKey, TValue)&#xA;Implements ICollection(Of KeyValuePair(Of TKey, TValue)), IDictionary, IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)), IReadOnlyCollection(Of KeyValuePair(Of TKey, TValue)), IReadOnlyDictionary(Of TKey, TValue)" />
-  <TypeSignature Language="F#" Value="type FrozenDictionary&lt;'Key, 'Value&gt; = class&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IDictionary&#xA;    interface ICollection" />
+  <TypeSignature Language="F#" Value="type FrozenDictionary&lt;'Key, 'Value&gt; = class&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IDictionary&#xA;    interface ICollection" FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename TKey, typename TValue&gt;&#xA;public ref class FrozenDictionary abstract : System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IDictionary&lt;TKey, TValue&gt;, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IReadOnlyDictionary&lt;TKey, TValue&gt;, System::Collections::IDictionary" />
+  <TypeSignature Language="F#" Value="type FrozenDictionary&lt;'Key, 'Value&gt; = class&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&#xA;    interface IDictionary" FrameworkAlternate="net-9.0" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Immutable</AssemblyName>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
@@ -54,11 +55,11 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute>
+    <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Count = {Count}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
+    <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryDebuggerProxy&lt;,&gt;))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryDebuggerProxy&lt;,&gt;))&gt;]</AttributeName>
     </Attribute>
@@ -89,6 +90,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -114,6 +116,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -140,6 +143,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -174,6 +178,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -208,9 +213,11 @@
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-9.0">P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -232,6 +239,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -253,10 +261,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0;net-9.0">
+        <Attribute FrameworkAlternate="net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(0)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(0)&gt;]</AttributeName>
         </Attribute>
@@ -281,12 +290,13 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue RefType="Readonly">
         <ReturnType>TValue</ReturnType>
         <Attributes>
-          <Attribute FrameworkAlternate="net-8.0">
+          <Attribute FrameworkAlternate="net-6.0">
             <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
             <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
           </Attribute>
@@ -312,10 +322,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0;net-9.0">
+        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;net-9.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -345,6 +356,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -375,6 +387,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -402,6 +415,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -426,6 +440,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -455,6 +470,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -480,6 +496,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -509,6 +526,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -538,6 +556,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -566,6 +585,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -590,6 +610,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -619,6 +640,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -643,6 +665,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -668,6 +691,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -696,6 +720,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -720,6 +745,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -744,6 +770,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -774,6 +801,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -800,6 +828,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -825,6 +854,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -855,6 +885,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -880,6 +911,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -910,6 +942,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -936,6 +969,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -962,6 +996,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -988,6 +1023,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1023,6 +1059,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1048,6 +1085,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1076,6 +1114,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1101,6 +1140,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1128,6 +1168,7 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1137,7 +1178,7 @@
         <Parameter Name="key" Type="TKey" />
         <Parameter Name="value" Type="TValue" RefType="out">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0;net-9.0">
+            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;net-9.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)&gt;]</AttributeName>
             </Attribute>
@@ -1163,6 +1204,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

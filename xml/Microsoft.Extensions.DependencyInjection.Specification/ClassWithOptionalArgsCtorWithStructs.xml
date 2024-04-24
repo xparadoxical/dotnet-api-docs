@@ -7,6 +7,7 @@
   <TypeSignature Language="C++ CLI" Value="public ref class ClassWithOptionalArgsCtorWithStructs" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -27,7 +28,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="dateTime" Type="System.DateTime" />
@@ -76,7 +77,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.ConsoleColor&gt;</ReturnType>
@@ -97,7 +98,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.ConsoleColor&gt;</ReturnType>
@@ -118,7 +119,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -139,7 +140,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -160,7 +161,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.Specification.ClassWithOptionalArgsCtorWithStructs+StructWithPublicDefaultConstructor</ReturnType>

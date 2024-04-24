@@ -20,6 +20,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.1</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -78,8 +79,8 @@ No `Activity` methods allow exceptions to escape as a response to bad inputs. Th
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -112,8 +113,8 @@ Note that <xref:System.Diagnostics.Activity> has a "builder" pattern: you call t
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -141,8 +142,8 @@ Note that <xref:System.Diagnostics.Activity> has a "builder" pattern: you call t
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -189,8 +190,8 @@ This key/value pair is included in the collection returned by the <xref:System.D
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -227,8 +228,8 @@ Callers should either restrict the number of events added to the same `Activity`
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -278,8 +279,8 @@ This shows up in the <xref:System.Diagnostics.Activity.TagObjects> enumeration. 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -331,8 +332,8 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -369,8 +370,8 @@ This key/value pair is included in the collection returned by the <xref:System.D
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -402,8 +403,8 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -433,14 +434,15 @@ This key/value pair is included in the collection returned by the <xref:System.D
       <MemberSignature Language="C#" Value="public static event EventHandler&lt;System.Diagnostics.ActivityChangedEventArgs&gt;? CurrentChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;valuetype System.Diagnostics.ActivityChangedEventArgs&gt; CurrentChanged" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Activity.CurrentChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event CurrentChanged As EventHandler(Of ActivityChangedEventArgs) " FrameworkAlternate="net-7.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Event CurrentChanged As EventHandler(Of ActivityChangedEventArgs) " FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
       <MemberSignature Language="F#" Value="member this.CurrentChanged : EventHandler&lt;System.Diagnostics.ActivityChangedEventArgs&gt; " Usage="member this.CurrentChanged : System.EventHandler&lt;System.Diagnostics.ActivityChangedEventArgs&gt; " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;System::Diagnostics::ActivityChangedEventArgs&gt; ^ CurrentChanged;" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Event CurrentChanged As EventHandler(Of ActivityChangedEventArgs) " FrameworkAlternate="net-8.0;net-9.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Custom Event CurrentChanged As EventHandler(Of ActivityChangedEventArgs) " FrameworkAlternate="net-9.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -478,8 +480,8 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -510,8 +512,8 @@ In .NET 5 and later versions, the default format is <xref:System.Diagnostics.Act
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -547,8 +549,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -571,8 +573,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -603,8 +605,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -626,7 +628,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -656,7 +659,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -686,7 +690,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -711,8 +716,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -737,8 +742,8 @@ If the `DisplayName` property is not set, it will return the same value as `Oper
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -773,8 +778,8 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -801,8 +806,8 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -828,8 +833,8 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -856,7 +861,8 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -884,8 +890,8 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -928,8 +934,8 @@ An ID has a hierarchical structure: `root-id.id1_id2.id3_`. The ID is generated 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -952,8 +958,8 @@ An ID has a hierarchical structure: `root-id.id1_id2.id3_`. The ID is generated 
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -984,7 +990,8 @@ The best practice for the library authors is not try to set this property. This 
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1015,8 +1022,8 @@ When subscribing to <xref:System.Diagnostics.Activity> stop event using <xref:Sy
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1039,8 +1046,8 @@ When subscribing to <xref:System.Diagnostics.Activity> stop event using <xref:Sy
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1067,8 +1074,8 @@ When subscribing to <xref:System.Diagnostics.Activity> stop event using <xref:Sy
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1104,8 +1111,8 @@ An operation name is the *coarsest* name that is useful for grouping/filtering. 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1143,8 +1150,8 @@ An operation name is the *coarsest* name that is useful for grouping/filtering. 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1189,8 +1196,8 @@ This property value can be `null` if this is a root <xref:System.Diagnostics.Act
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1221,8 +1228,8 @@ If the <xref:System.Diagnostics.Activity.ParentId?displayProperty=nameWithType> 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1251,8 +1258,8 @@ If the <xref:System.Diagnostics.Activity.ParentId?displayProperty=nameWithType> 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1292,8 +1299,8 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1335,8 +1342,8 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1375,8 +1382,8 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1406,8 +1413,8 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1447,8 +1454,8 @@ The specified format will take precedence over `Parent.IdFormat`, the <xref:Syst
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1487,8 +1494,8 @@ The specified format will take precedence over `Parent.IdFormat`, the <xref:Syst
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1533,8 +1540,8 @@ The specified format will take precedence over `Parent.IdFormat`, the <xref:Syst
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1560,8 +1567,8 @@ The specified format will take precedence over `Parent.IdFormat`, the <xref:Syst
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1607,8 +1614,8 @@ When passing code value different than ActivityStatusCode.Error, the Activity.St
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1659,8 +1666,8 @@ When passing code value different than ActivityStatusCode.Error, the Activity.St
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1693,8 +1700,8 @@ All activities created from public constructors will have a singleton source whe
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1721,8 +1728,8 @@ All activities created from public constructors will have a singleton source whe
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1766,8 +1773,8 @@ Use <xref:System.Diagnostics.DiagnosticSource.StartActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1797,8 +1804,8 @@ The `StartTimeUtc` property is typically initialized when <xref:System.Diagnosti
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1820,8 +1827,8 @@ The `StartTimeUtc` property is typically initialized when <xref:System.Diagnosti
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1858,8 +1865,8 @@ The `StartTimeUtc` property is typically initialized when <xref:System.Diagnosti
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1896,8 +1903,8 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1931,8 +1938,8 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1963,8 +1970,8 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1986,8 +1993,8 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -2039,8 +2046,8 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

@@ -7,6 +7,7 @@
   <TypeSignature Language="C++ CLI" Value="public ref class TypeWithSupersetConstructors" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -28,7 +29,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="factoryService" Type="Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFactoryService" />
@@ -49,7 +50,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fakeService" Type="Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeService" />
@@ -70,7 +71,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fakeService" Type="Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeService" />
@@ -93,7 +94,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fakeService" Type="Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeService" />
@@ -118,7 +119,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="multipleService" Type="Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeMultipleService" />
@@ -145,7 +146,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFactoryService</ReturnType>
@@ -166,7 +167,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeMultipleService</ReturnType>
@@ -187,7 +188,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeScopedService</ReturnType>
@@ -208,7 +209,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Specification.Tests</AssemblyName>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.Specification.Fakes.IFakeService</ReturnType>

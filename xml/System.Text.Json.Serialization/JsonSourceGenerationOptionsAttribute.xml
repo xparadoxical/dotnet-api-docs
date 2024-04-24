@@ -10,6 +10,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.3</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -36,8 +37,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -56,10 +57,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" Index="0" FrameworkAlternate="net-8.0;net-9.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
+        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" />
       </Parameters>
       <Docs>
         <param name="defaults">The <see cref="T:System.Text.Json.JsonSerializerDefaults" /> to reason about.</param>
@@ -100,6 +103,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -121,6 +126,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -148,6 +155,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -169,8 +178,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -192,6 +201,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -213,8 +224,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -236,8 +247,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -259,8 +270,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -282,8 +293,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -347,6 +358,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -368,6 +381,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -389,6 +404,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -410,6 +427,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -431,8 +450,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -454,6 +473,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -475,6 +496,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -496,6 +519,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -517,6 +542,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -538,8 +565,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.3</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

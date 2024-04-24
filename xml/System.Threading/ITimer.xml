@@ -13,10 +13,11 @@
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.TimeProvider</AssemblyName>
+    <AssemblyVersion>8.0.0.1</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="Microsoft.Bcl.TimeProvider" FromVersion="9.0.0.0" To="System.Runtime" ToVersion="8.0.0.0" FrameworkAlternate="net-8.0" />
+    <TypeForwarding From="Microsoft.Bcl.TimeProvider" FromVersion="8.0.0.1" To="System.Runtime" ToVersion="8.0.0.0" FrameworkAlternate="net-8.0" />
   </TypeForwardingChain>
   <Interfaces>
     <Interface>
@@ -46,6 +47,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.TimeProvider</AssemblyName>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

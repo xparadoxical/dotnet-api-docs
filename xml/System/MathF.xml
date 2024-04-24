@@ -25,6 +25,7 @@
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
@@ -38,7 +39,7 @@
     <TypeForwarding From="System.Runtime.Extensions" FromVersion="8.0.0.0" To="System.Runtime" ToVersion="8.0.0.0" FrameworkAlternate="net-8.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="9.0.0.0" FrameworkAlternate="net-9.0" />
     <TypeForwarding From="System.Runtime.Extensions" FromVersion="9.0.0.0" To="System.Runtime" ToVersion="9.0.0.0" FrameworkAlternate="net-9.0" />
-    <TypeForwarding From="Microsoft.Bcl.Numerics" FromVersion="9.0.0.0" To="netstandard" ToVersion="2.1.0.0" FrameworkAlternate="netstandard-2.1" />
+    <TypeForwarding From="Microsoft.Bcl.Numerics" FromVersion="8.0.0.0" To="netstandard" ToVersion="2.1.0.0" FrameworkAlternate="netstandard-2.1" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -83,6 +84,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -135,6 +137,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -245,6 +248,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -357,6 +361,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -415,6 +420,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -694,6 +700,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -788,6 +795,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -840,6 +848,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -892,6 +901,7 @@ The static fields and methods of the `MathF` class correspond to those of the <x
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -937,6 +947,7 @@ The value of this constant is 2.71828175.
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -996,6 +1007,7 @@ The value of this constant is 2.71828175.
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1101,6 +1113,7 @@ The value of this constant is 2.71828175.
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1232,6 +1245,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1298,6 +1312,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1438,6 +1453,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1567,6 +1583,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1654,6 +1671,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1741,6 +1759,7 @@ Remainder = (MathF.Abs(dividend) - (MathF.Abs(divisor) *
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1786,6 +1805,7 @@ The value of this field is 3.14159274.
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1973,6 +1993,7 @@ On hardware without specialized support, this may just return `1.0 / Sqrt(x)`.
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2033,6 +2054,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2096,6 +2118,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2155,6 +2178,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2262,6 +2286,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2332,6 +2357,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2436,6 +2462,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2488,6 +2515,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2544,6 +2572,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2596,6 +2625,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2682,6 +2712,7 @@ If the value of the `x` argument is <xref:System.Single.NaN?displayProperty=name
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.Numerics</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

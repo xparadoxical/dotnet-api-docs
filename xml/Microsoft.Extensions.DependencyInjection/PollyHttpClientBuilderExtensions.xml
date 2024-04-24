@@ -10,6 +10,7 @@
     <AssemblyVersion>2.2.0.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.4.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -35,7 +36,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -70,7 +71,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -107,7 +108,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -143,7 +144,7 @@
         <AssemblyName>Microsoft.Extensions.Http.Polly</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -183,7 +184,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -220,7 +221,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
@@ -257,7 +258,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
-        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>

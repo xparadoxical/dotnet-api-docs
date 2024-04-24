@@ -13,6 +13,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.1</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -57,8 +58,8 @@ Because an `ActivityTraceId` is a structure that contains 16 bytes, it can be pa
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -86,8 +87,8 @@ Because an `ActivityTraceId` is a structure that contains 16 bytes, it can be pa
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -118,8 +119,8 @@ Because an `ActivityTraceId` is a structure that contains 16 bytes, it can be pa
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -162,8 +163,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -192,8 +193,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -222,8 +223,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -254,8 +255,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -298,8 +299,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -325,8 +326,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -358,8 +359,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -391,8 +392,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -424,8 +425,8 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.1</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
